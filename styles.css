@@ -273,7 +273,12 @@ header h1 {
     /* 160% */
 }
 
-.fifth-section .sale-banner {}
+.fifth-section .sale-banner {
+    height: 663px;
+    background-image: url('./images/Rectangle\ 2.png'), url('./images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom,top right;
+}
 
 .sixth-section {
     margin-bottom: 120px;
@@ -323,6 +328,7 @@ header h1 {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 200px;
+    margin-bottom: 120px;
 }
 
 .seventh-section .img-container {
@@ -349,6 +355,29 @@ header h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+}
+
+.input-container {
+    width: 700px;
+    margin: auto;
+}
+
+.input-container input {
+    width: 520px;
+    padding: 25px;
+    border: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+.input-container span {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 footer {
